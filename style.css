@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(93, 155, 155);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 20px;        
+}
+html {
+    scroll-behavior: smooth;
+  }
+h1,h2 {
+    color: #333;
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul li {
+    list-style-type: square;
+}
+.container {
+    display: grid;
+    place-items: center;
+  }
+a {
+    color: #e1ff00;
+    text-decoration: none;
+}
+a:hover {
+color: red;
+}
